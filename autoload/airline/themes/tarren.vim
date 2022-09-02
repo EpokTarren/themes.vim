@@ -1,47 +1,47 @@
 " Author: Tarren <me@tarren.moe>
 " Project: Tarren's Theme Collection
-" Version: 1.0.0
+" Version: 1.1.0
 " Repository: https://github.com/EpokTarren/themes.git
 " License: MIT
 
 " Default colours, Rider theme
 
-let s:bg0 = 160
-let s:bg0G = '#1e2225'
-let s:bg1 = 160
-let s:bg1G = '#242a2d'
-let s:bg2 = 160
-let s:bg2G = '#2d3539'
-let s:txt = 232
-let s:txtG = '#faf3eb'
-let s:fg0 = 232
-let s:fg0G = '#ffa033'
-let s:fg1 = 232
-let s:fg1G = '#ffb866'
-let s:fg2 = 232
-let s:fg2G = '#ffcf99'
-let s:fg3 = 232
-let s:fg3G = '#ffe7cc'
-let s:co0 = 160
-let s:co0G = '#66ccff'
-let s:co1 = 160
-let s:co1G = '#99ddff'
-let s:ex0 = 196
-let s:ex0G = '#ff3355'
-let s:ex1 = 196
-let s:ex1G = '#ff6680'
-let s:ex2 = 196
-let s:ex2G = '#ff99aa'
+let s:bg0 = 196
+let s:bg0G = '#271b1d'
+let s:bg1 = 196
+let s:bg1G = '#302124'
+let s:bg2 = 196
+let s:bg2G = '#3c2a2d'
+let s:txt = 196
+let s:txtG = '#faebf2'
+let s:fg0 = 196
+let s:fg0G = '#ff3399'
+let s:fg1 = 196
+let s:fg1G = '#ff66b3'
+let s:fg2 = 196
+let s:fg2G = '#ff99cc'
+let s:fg3 = 196
+let s:fg3G = '#ffcce6'
+let s:co0 = 196
+let s:co0G = '#b366ff'
+let s:co1 = 196
+let s:co1G = '#cc99ff'
+let s:ex0 = 160
+let s:ex0G = '#3388ff'
+let s:ex1 = 160
+let s:ex1G = '#66a6ff'
+let s:ex2 = 160
+let s:ex2G = '#99c3ff'
 let s:err = 196
 let s:errG = '#ff3355'
-let s:warn = 232
-let s:warnG = '#ffa033'
+let s:warn = 52
+let s:warnG = '#ffee33'
 let s:hint = 160
-let s:hintG = '#33bbff'
-let s:c = 232
-let s:cG = '#9d7c55'
-let s:ln = 196
-let s:lnG = '#732633'
+let s:hintG = '#3388ff'
+let s:c = 196
+let s:cG = '#9d5579'
+let s:ln = 160
+let s:lnG = '#264673'
 
 " Colours depending on what theme style is set
 
@@ -193,6 +193,43 @@ elseif g:theme_style == 'Bloody'
   let s:cG = '#91559d'
   let s:ln = 160
   let s:lnG = '#264073'
+elseif g:theme_style == 'Arch Wizard'
+  let s:bg0 = 232
+  let s:bg0G = '#271f1b'
+  let s:bg1 = 232
+  let s:bg1G = '#302621'
+  let s:bg2 = 232
+  let s:bg2G = '#3c2f2a'
+  let s:txt = 196
+  let s:txtG = '#faebeb'
+  let s:fg0 = 196
+  let s:fg0G = '#ff333d'
+  let s:fg1 = 196
+  let s:fg1G = '#ff666e'
+  let s:fg2 = 196
+  let s:fg2G = '#ff999e'
+  let s:fg3 = 196
+  let s:fg3G = '#ffcccf'
+  let s:co0 = 196
+  let s:co0G = '#e566ff'
+  let s:co1 = 196
+  let s:co1G = '#ee99ff'
+  let s:ex0 = 233
+  let s:ex0G = '#ffcc33'
+  let s:ex1 = 233
+  let s:ex1G = '#ffd966'
+  let s:ex2 = 233
+  let s:ex2G = '#ffe699'
+  let s:err = 196
+  let s:errG = '#ff333d'
+  let s:warn = 233
+  let s:warnG = '#ffcc33'
+  let s:hint = 196
+  let s:hintG = '#7733ff'
+  let s:c = 196
+  let s:cG = '#9d5558'
+  let s:ln = 233
+  let s:lnG = '#736026'
 endif
 
 let g:airline#themes#tarren#palette = {}
