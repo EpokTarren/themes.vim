@@ -1,6 +1,6 @@
 " Author: Tarren <me@tarren.moe>
 " Project: Tarren's Theme Collection
-" Version: 1.2.0
+" Version: 1.3.0
 " Repository: https://github.com/EpokTarren/themes.git
 " License: MIT
 
@@ -73,8 +73,10 @@ let s:hint = 87
 let s:hintG = '#33ffff'
 let s:c = 131
 let s:cG = '#9d5b55'
-let s:ln = 24
-let s:lnG = '#265373'
+let s:ln = 25
+let s:lnG = '#2271aa'
+let s:lnBg = 233
+let s:lnBgG = '#191315'
 
 " Colours depending on what theme style is set
 
@@ -113,8 +115,10 @@ if g:theme_style == 'Good Job'
   let s:hintG = '#33bbff'
   let s:c = 143
   let s:cG = '#9b9d55'
-  let s:ln = 89
-  let s:lnG = '#732640'
+  let s:ln = 125
+  let s:lnG = '#aa224f'
+  let s:lnBg = 233
+  let s:lnBgG = '#131819'
 elseif g:theme_style == 'Slime'
   let s:bg0 = 235
   let s:bg0G = '#152b2d'
@@ -150,8 +154,10 @@ elseif g:theme_style == 'Slime'
   let s:hintG = '#3377ff'
   let s:c = 61
   let s:cG = '#55679d'
-  let s:ln = 54
-  let s:lnG = '#4d2673'
+  let s:ln = 55
+  let s:lnG = '#6622aa'
+  let s:lnBg = 234
+  let s:lnBgG = '#111b1b'
 elseif g:theme_style == '"Girl"'
   let s:bg0 = 235
   let s:bg0G = '#251e21'
@@ -187,8 +193,10 @@ elseif g:theme_style == '"Girl"'
   let s:hintG = '#33bbff'
   let s:c = 131
   let s:cG = '#9d6d55'
-  let s:ln = 94
-  let s:lnG = '#734d26'
+  let s:ln = 130
+  let s:lnG = '#aa6622'
+  let s:lnBg = 233
+  let s:lnBgG = '#181416'
 elseif g:theme_style == 'Bloody'
   let s:bg0 = 235
   let s:bg0G = '#231b27'
@@ -224,8 +232,10 @@ elseif g:theme_style == 'Bloody'
   let s:hintG = '#3377ff'
   let s:c = 132
   let s:cG = '#9d5585'
-  let s:ln = 24
-  let s:lnG = '#264d73'
+  let s:ln = 25
+  let s:lnG = '#2266aa'
+  let s:lnBg = 233
+  let s:lnBgG = '#171319'
 elseif g:theme_style == 'Arch Wizard'
   let s:bg0 = 234
   let s:bg0G = '#271d1b'
@@ -261,8 +271,10 @@ elseif g:theme_style == 'Arch Wizard'
   let s:hintG = '#7733ff'
   let s:c = 137
   let s:cG = '#9d8555'
-  let s:ln = 94
-  let s:lnG = '#735326'
+  let s:ln = 130
+  let s:lnG = '#aa7122'
+  let s:lnBg = 233
+  let s:lnBgG = '#191413'
 elseif g:theme_style == 'Imouto?'
   let s:bg0 = 235
   let s:bg0G = '#23211f'
@@ -298,8 +310,10 @@ elseif g:theme_style == 'Imouto?'
   let s:hintG = '#3377ff'
   let s:c = 131
   let s:cG = '#9d6155'
-  let s:ln = 94
-  let s:lnG = '#735326'
+  let s:ln = 130
+  let s:lnG = '#aa7122'
+  let s:lnBg = 233
+  let s:lnBgG = '#171615'
 elseif g:theme_style == 'Gyaru'
   let s:bg0 = 234
   let s:bg0G = '#1d2025'
@@ -335,14 +349,55 @@ elseif g:theme_style == 'Gyaru'
   let s:hintG = '#3333ff'
   let s:c = 137
   let s:cG = '#9d8555'
-  let s:ln = 24
-  let s:lnG = '#265d73'
+  let s:ln = 31
+  let s:lnG = '#2283aa'
+  let s:lnBg = 233
+  let s:lnBgG = '#141618'
+elseif g:theme_style == 'Commander'
+  let s:bg0 = 234
+  let s:bg0G = '#1d2025'
+  let s:bg1 = 235
+  let s:bg1G = '#24262e'
+  let s:bg2 = 236
+  let s:bg2G = '#2d2d39'
+  let s:txt = 255
+  let s:txtG = '#efebfa'
+  let s:fg0 = 69
+  let s:fg0G = '#3381ff'
+  let s:fg1 = 69
+  let s:fg1G = '#6687ff'
+  let s:fg2 = 111
+  let s:fg2G = '#999eff'
+  let s:fg3 = 189
+  let s:fg3G = '#d2ccff'
+  let s:co0 = 221
+  let s:co0G = '#ffcc66'
+  let s:co1 = 228
+  let s:co1G = '#ffee99'
+  let s:ex0 = 204
+  let s:ex0G = '#ff3388'
+  let s:ex1 = 204
+  let s:ex1G = '#ff668c'
+  let s:ex2 = 211
+  let s:ex2G = '#ff99a2'
+  let s:err = 203
+  let s:errG = '#ff3344'
+  let s:warn = 215
+  let s:warnG = '#ffaa33'
+  let s:hint = 63
+  let s:hintG = '#335fff'
+  let s:c = 61
+  let s:cG = '#69559d'
+  let s:ln = 125
+  let s:lnG = '#aa225b'
+  let s:lnBg = 233
+  let s:lnBgG = '#141618'
 endif
 
 call s:Hi('Normal', s:txt, s:txtG, s:bg0, s:bg0G, '')
 call s:Hi('Cursor', s:txt, s:txtG, '', '', '')
 call s:Hi('CursorLine', s:txt, s:txtG, s:bg2, s:bg2G, '')
-call s:Hi('LineNr', s:ln, s:lnG, s:bg0, s:bg0G, '')
+call s:Hi('LineNr', s:ln, s:lnG, s:lnBg, s:lnBgG, '')
 call s:Hi('CursorLineNR', s:txt, s:txtG, s:bg2, s:bg2G, '')
 call s:Hi('CursorColumn', s:txt, s:txtG, s:bg2, s:bg2G, '')
 call s:Hi('FoldColumn', s:txt, s:txtG, s:bg1, s:bg1G, '')
