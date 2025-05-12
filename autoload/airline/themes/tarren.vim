@@ -1,6 +1,6 @@
 " Author: Tarren <me@tarren.moe>
 " Project: Tarren's Theme Collection
-" Version: 1.3.0
+" Version: 1.4.0
 " Repository: https://github.com/EpokTarren/themes.git
 " License: MIT
 
@@ -359,6 +359,45 @@ elseif g:theme_style == 'Commander'
   let s:lnG = '#aa225b'
   let s:lnBg = 233
   let s:lnBgG = '#141618'
+elseif g:theme_style == 'Encore'
+  let s:bg0 = 235
+  let s:bg0G = '#281b27'
+  let s:bg1 = 235
+  let s:bg1G = '#31212e'
+  let s:bg2 = 236
+  let s:bg2G = '#3d2936'
+  let s:txt = 255
+  let s:txtG = '#faeeeb'
+  let s:fg0 = 204
+  let s:fg0G = '#ff3388'
+  let s:fg1 = 204
+  let s:fg1G = '#ff668c'
+  let s:fg2 = 211
+  let s:fg2G = '#ff99a2'
+  let s:fg3 = 224
+  let s:fg3G = '#ffd0cc'
+  let s:co0 = 221
+  let s:co0G = '#ffcc66'
+  let s:co1 = 228
+  let s:co1G = '#ffee99'
+  let s:ex0 = 63
+  let s:ex0G = '#5533ff'
+  let s:ex1 = 99
+  let s:ex1G = '#9966ff'
+  let s:ex2 = 177
+  let s:ex2G = '#cc99ff'
+  let s:err = 203
+  let s:errG = '#ff3344'
+  let s:warn = 221
+  let s:warnG = '#ffcc33'
+  let s:hint = 63
+  let s:hintG = '#6633ff'
+  let s:c = 131
+  let s:cG = '#9d6755'
+  let s:ln = 55
+  let s:lnG = '#3922aa'
+  let s:lnBg = 234
+  let s:lnBgG = '#191319'
 endif
 
 let g:airline#themes#tarren#palette = {}
