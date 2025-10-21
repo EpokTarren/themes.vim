@@ -1,6 +1,6 @@
 " Author: Tarren <me@tarren.moe>
 " Project: Tarren's Theme Collection
-" Version: 1.4.0
+" Version: 1.4.1
 " Repository: https://github.com/EpokTarren/themes.git
 " License: MIT
 
